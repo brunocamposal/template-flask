@@ -1,6 +1,6 @@
-from flask import Flask, Blueprint
-from app.views.index_views import bp as index_bp
+from flask import Flask
 
+from app.views.index_views import bp as index_bp
 
 def create_app():
     app = Flask(__name__)
